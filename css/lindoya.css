@@ -107,6 +107,12 @@ body{
   text-align: center;
   position: relative;
 }
+.banner__desktop{
+  display: block;
+}
+.banner__mobile{
+  display: none;
+}
 .banner img{
   width: 100%;
 }
@@ -230,6 +236,31 @@ body{
 .description .description__boxs .description__boxs__list .description__boxs__list--item img{
   width: 50px;
   height: 50px;;
+}
+@media screen and (max-width: 800px) {
+  .description .description__boxs__list{
+    flex-direction: column;
+    align-items: center;
+    margin-top:-100px;
+  }
+  .description .description__boxs .description__boxs__list .description__boxs__list--item-center{
+    margin-top:0px;
+  }
+  .description .description__boxs .description__boxs__list .description__boxs__list--item{
+    margin-top:10px;
+  }
+  .hands{
+    margin-top:450px !important;
+  }
+
+  .hands .hands__top .hands__top__description{
+    padding:0 20px;
+    font-weight: 200;
+  }
+  .hands .hands__bottom__description{
+    padding:0 20px;
+    font-weight: 200;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -431,6 +462,29 @@ body{
 }
 
 
+@media screen and (max-width: 800px) {
+  .health .health__contents{
+    flex-direction: column;
+  }
+  .health .health__contents img{
+    height:500px;
+  }
+  .health .health__contents__description{
+    text-align: center;
+  }
+  .health .health__contents__description__text{
+    text-align: center !important;
+  }
+  .health .health__contents__list{
+    flex-direction: column;
+    margin-top:40px;
+  }
+
+  .health .health__contents__list .health__contents__list__item{
+    margin-top:80px;
+  }
+}
+
 .graacc{
   text-align: center;
   padding:100px 0px;
@@ -462,6 +516,21 @@ body{
   width: 100%;
 }
 
+
+@media screen and (max-width: 800px) {
+  .graacc .graacc__title{
+    padding:0 30px;
+  }
+  .graacc .graacc__content .graacc__content__description {
+    padding-top: 0px;
+  }
+  .graacc .graacc__content{
+    flex-direction: column;
+  }
+  .graacc .graacc__content__image{
+    margin-top:100px;
+  }
+}
 
 .newsletter{
   background-color: #F08A19;
@@ -509,6 +578,26 @@ body{
   font-weight: bold;
   color:#FDF66B;
   
+}
+
+@media screen and (max-width: 800px) {
+  .newsletter .newsletter__form{
+    flex-direction: column;
+    align-items: center;
+  }
+  .newsletter .newsletter__form input{
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  .newsletter .container{
+    height: 460px;
+  }
+  .banner__desktop{
+    display: none;
+  }
+  .banner__mobile{
+    display: block;
+  }
 }
 
 .logo{
