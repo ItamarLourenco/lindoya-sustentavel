@@ -118,6 +118,7 @@ body{
   object-fit: cover;
   min-height: 85vh;
   width: 100%
+  
 }
 .banner .banner_details{
   position: absolute;
@@ -158,7 +159,7 @@ body{
 }
 .description__text{
   width: 100%;
-  height:400px;
+  height:500px;
 }
 .description__text__group{
   height: 35vh;
@@ -167,8 +168,7 @@ body{
   justify-content: center;
 }
 .description__text__group--title{
-  font-size:2.2vw;
-  letter-spacing: 0.03em;
+  font-size:42pt;
   text-align: left;
   color: #fff;
   font-weight: bold;
@@ -185,13 +185,13 @@ body{
 }
 .description__text__group--desc{
   font-weight: 700;
-  font-size:1vw;
+  font-size:19pt;
   text-align: left;
   color: #fff;
   margin-top:20px;
   font-weight: 300;
   text-align: center;
-  padding:0 37em;
+  padding:0 20em;
 }
 .control-image-mobile{
   display: none;
@@ -201,6 +201,7 @@ body{
 .description .description__boxs{
   position: absolute;
   width: 100%;
+  margin-top: 40px;;
 }
 .description .description__boxs .description__boxs__list{
   display: flex;
@@ -705,6 +706,10 @@ body{
 
   .health .health__contents .health__contents__description{
     margin-top:0px;
+  }
+
+  .footer__networks .footer__networks__list{
+    border:red solid 1px;
   }
 }
 
