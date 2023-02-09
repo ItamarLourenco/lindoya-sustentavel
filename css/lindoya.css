@@ -174,7 +174,6 @@ body{
   text-align: center;
 }
 .description__text__group--sub-title{
-  font-family: Montserrat;
   font-size:1.2vw;
   letter-spacing: 0.03em;
   text-align: left;
@@ -183,15 +182,14 @@ body{
   margin-top:20px;
 }
 .description__text__group--desc{
-  font-family: Montserrat;
   font-weight: 500;
   font-size:1vw;
-  letter-spacing: 0.03em;
   text-align: left;
   color: #fff;
   margin-top:20px;
   font-weight: 300;
   text-align: center;
+  padding:0 40em;
 }
 .control-image-mobile{
   display: none;
@@ -501,13 +499,13 @@ body{
 .graacc .graacc__content .graacc__content__description{
   width: 100%;
   padding-top: 120px;
+  padding:0 14em;
 }
 .graacc .graacc__content .graacc__content__description p{
   font-size: 12px;
   text-align: center;
   color: #292929;
   margin-top:20px;
-
 }
 
 .graacc .graacc__content .graacc__content__image{
