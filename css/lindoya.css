@@ -115,8 +115,9 @@ body{
   display: none;
 }
 .banner img{
-  
-  
+  object-fit: cover;
+  min-height: 85vh;
+  width: 100%
 }
 .banner .banner_details{
   position: absolute;
@@ -172,6 +173,7 @@ body{
   color: #fff;
   font-weight: bold;
   text-align: center;
+  font-weight: bold !important;
 }
 .description__text__group--sub-title{
   font-size:1.2vw;
@@ -182,14 +184,14 @@ body{
   margin-top:20px;
 }
 .description__text__group--desc{
-  font-weight: 500;
+  font-weight: 700;
   font-size:1vw;
   text-align: left;
   color: #fff;
   margin-top:20px;
   font-weight: 300;
   text-align: center;
-  padding:0 40em;
+  padding:0 37em;
 }
 .control-image-mobile{
   display: none;
@@ -415,7 +417,7 @@ body{
   height: auto !important;
 }
 .health .health__contents .health__contents__description{
-  margin-top:100px;
+  margin-top:50px;
 }
 .health .health__contents .health__contents__description .health__contents__description__title{
   font-size: 55px;
@@ -618,7 +620,7 @@ body{
     margin-top:-90px !important;
   }
   .description__boxs__list .description__boxs__list--item{
-    width: 220px !important;
+    width: 250px !important;
     margin-top:30px !important;
   }
   .description__boxs__list .description__boxs__list--item img{
@@ -685,6 +687,9 @@ body{
     font-weight: 400 !important;
     color:#707070 !important
   }
+  .graacc .graacc__content__description{
+    padding: 0 !important;
+  }
   .graacc .graacc__content__image{
     width: 80% !important;
     margin: auto;
@@ -696,6 +701,10 @@ body{
   }
   .newsletter__form input{
     text-align: center !important;
+  }
+
+  .health .health__contents .health__contents__description{
+    margin-top:0px;
   }
 }
 
