@@ -729,6 +729,12 @@ body{
   .footer__networks__list{
     justify-content: center !important
   }
+
+  .footer .footer__links li a{
+    color:#FFF !important;
+    text-decoration:  none;
+    margin-right: 0px;
+  }
 }
 
 .logo{
