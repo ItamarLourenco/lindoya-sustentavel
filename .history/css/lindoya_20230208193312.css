@@ -359,8 +359,9 @@ body{
 }
 
 .hands .hands__top .hands__top__title{
-  font-size: 42pt;
-  font-weight: bold;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 49px;
   line-height: 44px;
   text-align: center;
   color: #3a5e8a;
@@ -529,12 +530,6 @@ body{
   }
   .graacc .graacc__content__image{
     margin-top:100px;
-  }
-  .hands__top .hands__top__title{
-    font-size: 25pt !important;
-  }
-  .health__contents__description__subtitle{
-    font-size: 25pt !important;
   }
 }
 

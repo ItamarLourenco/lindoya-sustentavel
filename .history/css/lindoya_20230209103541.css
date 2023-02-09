@@ -359,7 +359,7 @@ body{
 }
 
 .hands .hands__top .hands__top__title{
-  font-size: 42pt;
+  font-size: 10vw;
   font-weight: bold;
   line-height: 44px;
   text-align: center;
@@ -529,12 +529,6 @@ body{
   }
   .graacc .graacc__content__image{
     margin-top:100px;
-  }
-  .hands__top .hands__top__title{
-    font-size: 25pt !important;
-  }
-  .health__contents__description__subtitle{
-    font-size: 25pt !important;
   }
 }
 

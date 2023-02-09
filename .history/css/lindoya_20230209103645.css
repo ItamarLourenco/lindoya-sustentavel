@@ -532,9 +532,7 @@ body{
   }
   .hands__top .hands__top__title{
     font-size: 25pt !important;
-  }
-  .health__contents__description__subtitle{
-    font-size: 25pt !important;
+    border:Red solid 1px;
   }
 }
 
