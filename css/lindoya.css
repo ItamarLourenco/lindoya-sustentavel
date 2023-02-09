@@ -118,7 +118,6 @@ body{
   object-fit: cover;
   min-height: 85vh;
   width: 100%
-  
 }
 .banner .banner_details{
   position: absolute;
@@ -619,7 +618,7 @@ body{
     margin-top:10px;
   }
   .description__boxs__list{
-    margin-top:-90px !important;
+    margin-top:-150px !important;
   }
   .description__boxs__list .description__boxs__list--item{
     width: 250px !important;
@@ -734,6 +733,12 @@ body{
     color:#FFF !important;
     text-decoration:  none;
     margin-right: 0px;
+  }
+
+  .banner img{
+    object-fit:contain;
+    min-height: auto;
+    width: auto
   }
 }
 
