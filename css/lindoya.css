@@ -299,7 +299,7 @@ body{
 
 .footer{
   background-image: url('../assets/images/rodape.svg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   height:400px;
   padding-top:250px;
 }
